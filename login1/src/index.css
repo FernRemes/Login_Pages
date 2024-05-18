@@ -1,0 +1,47 @@
+/* body {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  background: radial-gradient(at 18% 99%, rgb(223, 229, 113) 0px, transparent 50%) repeat scroll 0% 0%, 
+              radial-gradient(at 97% 8%, rgb(118, 249, 173) 0px, transparent 50%) repeat scroll 0% 0%, 
+              radial-gradient(at 79% 82%, rgb(233, 109, 131) 0px, transparent 50%) repeat scroll 0% 0%, 
+              radial-gradient(at 96% 10%, rgb(222, 81, 251) 0px, transparent 50%) repeat scroll 0% 0%, 
+              radial-gradient(at 42% 20%, rgb(116, 240, 251) 0px, transparent 50%) repeat scroll 0% 0%, 
+              radial-gradient(at 4% 49%, rgb(203, 88, 218) 0px, transparent 50%) repeat scroll 0% 0%, 
+              radial-gradient(at 57% 33%, rgb(218, 83, 228) 0px, #a299ff 50%) repeat scroll 0% 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} */
+body {
+  
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  
+  background: linear-gradient(132deg, #ffcaf0, #78e1fb, 
+  #7a9def, #9d82ea, #a16ce9, #c580ef, #78e1fb);
+  background-size: 1400% 1400%;
+
+  -webkit-animation: DesignA11y 45s ease infinite;
+  -moz-animation: DesignA11y 45s ease infinite;
+  animation: DesignA11y 45s ease infinite;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+
+  @-webkit-keyframes DesignA11y {
+  0%{background-position:0% 2%}
+  50%{background-position:100% 99%}
+  100%{background-position:0% 2%}
+   }
+  @-moz-keyframes DesignA11y {
+  0%{background-position:0% 2%}
+  50%{background-position:100% 99%}
+  100%{background-position:0% 2%}
+  }
+  @keyframes DesignA11y {
+  0%{background-position:0% 2%}
+  50%{background-position:100% 99%}
+  100%{background-position:0% 2%}
+  }
+  

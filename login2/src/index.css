@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+body {
+  
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+  background: linear-gradient(132deg, #ffcaf0, #78e1fb, 
+  #7a9def, #9d82ea, #a16ce9, #c580ef, #78e1fb);
+  background-size: 1400% 1400%;
+
+  -webkit-animation: DesignA11y 45s ease infinite;
+  -moz-animation: DesignA11y 45s ease infinite;
+  animation: DesignA11y 45s ease infinite;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+
+  @-webkit-keyframes DesignA11y {
+  0%{background-position:0% 2%}
+  50%{background-position:100% 99%}
+  100%{background-position:0% 2%}
+   }
+  @-moz-keyframes DesignA11y {
+  0%{background-position:0% 2%}
+  50%{background-position:100% 99%}
+  100%{background-position:0% 2%}
+  }
+  @keyframes DesignA11y {
+  0%{background-position:0% 2%}
+  50%{background-position:100% 99%}
+  100%{background-position:0% 2%}
+  }
